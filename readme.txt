@@ -73,3 +73,17 @@ ChessBorad.lua
 由 solveLevels.lua 驱动，结果保存于 solved.lua 中
 每关的结果是形如 {row=y, col=x} 的点坐标列表，表示点击翻顺序
 发现三个无解的关卡：{70 82 87}
+
+因而重新设计这三关的布局，使之可解
+
+5. 难度分析 hardanaly.lua
+将求解组合数（对数熵）作为难度指数
+获取所有关卡的基本信息，计算难度指数，保存结果数据于 csv（文本格式）
+csv 可用 Excel 打开，或导出 .xlsx 作进一步分析
+
+6. 总结
+以后或可重用的实用函数工具：
+
+计算组合数：combine.lua
+罗列组合状态的迭代器：combit.lua
+将 lua table 数据导出为 Excel 可读的 csv 格式：（暂藏在 hardanaly.lua 中）
