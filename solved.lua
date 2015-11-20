@@ -608,7 +608,13 @@ solved[69]={
 	{row=2, col=2},
 	{row=1, col=3},
 }
-solved[70]={}
+solved[70]={
+    {row=5, col=3},
+    {row=3, col=5},
+    {row=3, col=3},
+    {row=3, col=1},
+    {row=1, col=3},
+}
 solved[71]={
 	{row=5, col=3},
 	{row=4, col=5},
@@ -715,7 +721,16 @@ solved[81]={
 	{row=2, col=1},
 	{row=1, col=2},
 }
-solved[82={}
+solved[82]={
+    {row=5, col=4},
+    {row=5, col=2},
+    {row=4, col=5},
+    {row=4, col=1},
+    {row=2, col=5},
+    {row=2, col=1},
+    {row=1, col=4},
+    {row=1, col=2},
+}
 solved[83]={
 	{row=4, col=3},
 	{row=4, col=2},
@@ -747,7 +762,12 @@ solved[86]={
 	{row=2, col=4},
 	{row=2, col=2},
 }
-solved[87]={}
+solved[87]={
+    {row=4, col=3},
+    {row=3, col=4},
+    {row=3, col=2},
+    {row=2, col=3},
+}
 solved[88]={
 	{row=5, col=2},
 	{row=4, col=5},
@@ -880,4 +900,5 @@ solved[100]={
 	{row=1, col=3},
 	{row=1, col=1},
 }
--- 无解的关卡，70 82 87
+
+return solved
