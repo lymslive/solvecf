@@ -13,6 +13,10 @@ function combine(n, k)
     return result[k], result
 end
 
+if not arg then
+    return
+end
+
 -- [[ main
 -- sum(C(n,k), k=1,n) = 2^n -1
 -- sum(C(n,k), k=0,n) = 2^n
