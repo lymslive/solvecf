@@ -901,4 +901,19 @@ solved[100]={
 	{row=1, col=1},
 }
 
+-- 将某关的解随机顺序打乱返回
+function solved:getRandomSolve(level)
+    local solve = self[level]
+    if not solve then return nil end
+
+    local len = #solve
+    for i = 1, len-1 do
+	local j = math.random(i, len)
+	if j ~= i then
+	    solve[i], solve[j] = solve[j], solve[i]
+	end
+    end
+
+    return solve
+end
 return solved
