@@ -86,4 +86,5 @@ csv 可用 Excel 打开，或导出 .xlsx 作进一步分析
 
 计算组合数：combine.lua
 罗列组合状态的迭代器：combit.lua
-将 lua table 数据导出为 Excel 可读的 csv 格式：（暂藏在 hardanaly.lua 中）
+将 lua table 数据导出为 Excel 可读的 csv 格式：（参考 hardanaly.lua ）
+将数组随机乱序：（参考 solved.lua ）
